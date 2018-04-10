@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -11,7 +10,12 @@
   <link rel="canonical" href="/nssm-the-non-sucking-service-manager.html">
   <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
 
-  <link rel="stylesheet" href="/theme/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="/theme/css/font-awesome.min.css">
   <link rel="stylesheet" href="/theme/css/pygments/default.min.css">
   <link rel="stylesheet" href="/theme/css/theme.css">
@@ -20,7 +24,7 @@
   <meta name="description" content="nssm is a service helper which doesn't suck. srvany and other service helper programs suck because they don't handle failure of the application running as a service. If you use such a program you may see a service listed as started when in fact the application has died. nssm monitors …">
 
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
 </head>
 
 <body>
@@ -114,21 +118,29 @@
       </ul>
     </header>
     <div class="content">
-		<img src ="/images/NSSM.jpg" alt="NSSM - the Non-Sucking Service Manager" style="float:left;margin-right:30px;margin-top:8px;margin-bottom:15px;">
+		<img src ="/images/NSSM.jpg" alt="NSSM - the Non-Sucking Service Manager" style="float:left;margin-right:30px;margin-top:8px;margin-bottom:10px;">
 	   
       <p>nssm is a service helper which doesn't suck. srvany and other service helper programs suck because they don't handle failure of the application running as a service. If you use such a program you may see a service listed as started when in fact the application has died. nssm monitors the running service and will restart it if it dies. With nssm you know that if a service says it's running, it really is. Alternatively, if your application is well-behaved you can configure nssm to absolve all responsibility for restarting it and let Windows take care of recovery actions.</p>
 <p>nssm logs its progress to the system Event Log so you can get some idea of why an application isn't behaving as it should.</p>
 <p>nssm also features a graphical service installation and removal facility. Prior to version 2.19 it did suck. Now it's quite a bit better.</p>
 	  <div style="clear: left;"></div>
+
+	 
+	 
+	  	  <div class="row">
+		  <br>
+		
+		
+		  
+	  </div>
+	  <br>
 		 <a class="btn btn-primary" style="text-decoration: none" href ="https://nssm.cc/" target="_blank"><i class="fa fa-home"></i>  NSSM - the Non-Sucking Service Manager Home Page</a> <br><br>
 		<a class="btn btn-warning" style="text-decoration: none" href ="https://nssm.cc/download" target="_blank"><i class="fa fa-download"></i> Download NSSM - the Non-Sucking Service Manager</a><br><br>
 	  
 	
 		  
-		  
-	  
-	  
-	  
+
+
     </div>
   </article>
 <!-- Disqus -->
