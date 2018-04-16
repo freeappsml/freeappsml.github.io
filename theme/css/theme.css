@@ -68,6 +68,9 @@ hr {
 	margin-bottom: 0rem;
 }
 
+.pros {	color: green; }
+
+.cons {color: red;}
 /* ------------------------------------------------------------------------- */
 .col-sm-5 {  float: right;  margin-top :  10px ;  }
 
